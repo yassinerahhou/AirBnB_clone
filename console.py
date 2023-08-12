@@ -5,8 +5,9 @@ class HBNBCommand(cmd.Cmd):
         return True
     def do_EOF(self, arg):
         return True
-        
+    def emptyline(self):
+        """Do nothing when an empty line is entered."""
+        pass    
 if __name__ == '__main__':
-    x = HBNBCommand()
-    x.cmdloop()
+    HBNBCommand().cmdloop()
 
