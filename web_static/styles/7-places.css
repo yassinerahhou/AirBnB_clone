@@ -1,0 +1,44 @@
+.places > div { display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+    }
+#h1places {font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+/* article{ */
+       /* width: 390px; */
+       /* padding: 20px; */
+       /* margin: 20px; */
+       /* border: 1px solid #FF5A5F; */
+       /* border-radius: 4px; */
+     
+     
+   /* } */
+
+
+   
+
+    
+  
+#h22{width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    float: right;
+    align-items: center;
+   
+
+}
+.places h1 {
+   font-size: 30px;
+   padding: 20;
+}
+#h2P{font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;}
